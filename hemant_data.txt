@@ -1,0 +1,42 @@
+git config --global user.name "hemantbhoir2797"
+
+git config --global user.email "hemantbhoir101@gmail.com"
+
+cd C:\Users\User\OneDrive\Desktop\Hemant
+
+git init
+
+git remote add origin https://github.com/hemantbhoir2797/Neosoft_Hemant.git
+
+cd C:\Users\User\OneDrive\Desktop\Hemant
+
+git status
+
+echo.>README.md
+
+git add .
+
+git status
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote set-url origin https://github.com/hemantbhoir2797/Neosoft_Hemant.git
+
+git push -u origin main
+
+-- to commit newly added changes on git 
+
+git config --global user.name "hemantbhoir2797"
+
+git config --global user.email "hemantbhoir101@gmail.com"
+
+git init
+
+git add .
+
+git commit -m "file"
+
+git push -u origin main
+
